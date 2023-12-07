@@ -1,6 +1,6 @@
 {
   "name": "@coderich/redis",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "src/Redis.js",
   "publishConfig": {
     "access": "public"
