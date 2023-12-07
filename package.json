@@ -1,0 +1,19 @@
+{
+  "name": "@coderich/redis",
+  "main": "index.js",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./",
+    "dev": "coderich-dev"
+  },
+  "dependencies": {
+    "bson-objectid": "2.0.4",
+    "lodash.set": "4.3.2",
+    "redis": "4.5.1"
+  },
+  "devDependencies": {
+    "@coderich/dev": "^0.1.0",
+    "redis-memory-server": "0.10.0"
+  }
+}
