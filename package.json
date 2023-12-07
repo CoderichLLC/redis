@@ -1,7 +1,11 @@
 {
   "name": "@coderich/redis",
-  "main": "index.js",
   "version": "0.0.0",
+  "main": "src/Redis.js",
+  "files": [
+    "src",
+    "!__mocks__"
+  ],
   "scripts": {
     "test": "jest",
     "lint": "eslint ./",
